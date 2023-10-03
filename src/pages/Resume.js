@@ -38,7 +38,7 @@ function Resume() {
         <Row style={{marginBottom: '25px'}}>
             <span style={{backgroundColor: 'white'}}><h1 style={{ paddingLeft: '20px'}}>Skills</h1></span>
             <div><h3 style={{ paddingLeft: '20px'}}>
-                Skills I am proficient in  
+                Some of the skills I'm proficient in  
             </h3>
                 <List />
             </div>
