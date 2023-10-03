@@ -9,12 +9,12 @@ import bioPicture2 from '../assets/selfShot_natural.JPG';
 export default function Me() {
   return (
     <div>
-        <div class="container bootstrap snippets bootdey">
-    <div class="profile card">
-        <div class="profile-body">
-            <div class="profile-bio">
-                <div class="row">
-                    <div class="col-md-5 text-center">
+        <div className="container bootstrap snippets bootdey">
+    <div className="profile card">
+        <div className="profile-body">
+            <div className="profile-bio">
+                <div className="row">
+                    <div className="col-md-5 text-center">
                     <Container>
                         <Row>
                             <Col xs={6} md={4}>
@@ -26,7 +26,7 @@ export default function Me() {
                         </Row>
                      </Container>
                     </div>
-                    <div class="col-md-7">
+                    <div className="col-md-7">
                         <h2>Jacob D Flores</h2>
                         <span style={{ paddingRight: '10px' }}><strong>Job:</strong> Junior Developer </span>
                         <span><strong>Position:</strong> Searching for Work </span>

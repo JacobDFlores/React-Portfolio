@@ -9,34 +9,39 @@ import Resume from './pages/Resume';
 import Header from './components/Header';
 import Footer from './components/Footer';
 
+import blueBanner from './assets/purple-pink-geoBanner.jpeg';
+
+
 function App() {
 
   const url = window.location.toString().split("/");
   const page = url[url.length - 1];
 
-
-
-
-
   return (
-    <body>
+    <div>
+      <div id = 'banner' style={{
+        backgroundImage: `url(${blueBanner})`,
+        backgroundRepeat: 'no',
+        backgroundSize: 'cover'
+      }}>
       <Header />
+      </div>
 
-      {page == 'portfolio' ? (
-
+            {page == 'portfolio' ? (
           <div style={{ paddingTop: '100px', paddingBottom: '100px' }} >
             <Portfolio />
-          </div>
-
-          ) : (
-            
+          </div>) : (<></>)}
+            {page == '' ? (
           <div style={{ paddingTop: '100px', paddingBottom: '100px' }} >
             <Me />
-          </div>
-      )}
-      
+          </div>) : (<></>)} 
+            {page == 'resume' ? (
+          <div style={{ paddingTop: '100px', paddingBottom: '100px' }} >
+            <Resume />
+          </div>) : (<></>)}  
+
       <Footer />
-    </body>
+    </div>
   );
 }
 

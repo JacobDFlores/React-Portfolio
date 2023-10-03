@@ -1,25 +1,36 @@
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
+import Project6 from '../components/Projects/six';
+import Project1 from '../components/Projects/one';
+import Project2 from '../components/Projects/two';
+import Project3 from '../components/Projects/three';
+import Project4 from '../components/Projects/four';
+import Project5 from '../components/Projects/five';
+
 
 function GridExample() {
   return (
-    <Row xs={1} md={2} className="g-4">
-      {Array.from({ length: 4 }).map((_, idx) => (
-        <Col key={idx}>
-          <Card>
-            <Card.Img variant="top" src="holder.js/100px160" />
-            <Card.Body>
-              <Card.Title>Card title</Card.Title>
-              <Card.Text>
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
-              </Card.Text>
-            </Card.Body>
-          </Card>
-        </Col>
-      ))}
+    <Row>
+        <Row style={{marginBottom: '25px'}}>
+            <span style={{backgroundColor: 'white'}}><h1 style={{ paddingLeft: '20px'}}>Portfolio</h1></span>
+            <div><h3 style={{ paddingLeft: '20px'}}>
+                These are some of my favorite projects that I have been working on for the past six months!
+            </h3></div>
+        </Row>
+        <Row xs={1} md={2} className="g-4 m-2">
+        {Array.from({ length: 6 }).map((_, idx) => (
+            <Col key={idx}>
+            {idx == 0 ? (<Project5 />) : (<></>)}
+            {idx == 1 ? (<Project1 />) : (<></>)}
+            {idx == 2 ? (<Project3 />) : (<></>)}
+            {idx == 3 ? (<Project4 />) : (<></>)}
+            {idx == 4 ? (<Project2 />) : (<></>)}
+            {idx == 5 ? (<Project6 />) : (<></>)}
+
+            </Col>
+        ))}
+        </Row>
     </Row>
   );
 }
