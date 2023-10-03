@@ -24,3 +24,5 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 ## Resources used
 https://react-bootstrap.netlify.app/
 https://www.bootdey.com/snippets/view/Profile-bio#css
+https://www.youtube.com/watch?v=IPEqb_AJbAQ&t=361s
+
