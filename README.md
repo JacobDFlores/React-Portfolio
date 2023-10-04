@@ -1,28 +1,37 @@
-# React-Portfolio
-My new portfolio, a single page application built with react.
+# React Portfolio
 
+## Description
 
-About Me, Portfolio, Contact, and Resume, and the title corresponding to the current section is highlighted
+A front end portfolio that uses react to build itself
 
-THEN the About Me title and section are selected by default
-WHEN I am presented with the About Me section
-THEN I see a recent photo or avatar of the developer and a short bio about them
+## Table of Contents
 
-WHEN I am presented with the Portfolio section
-THEN I see titled images of six of the developer’s applications with links to both the deployed applications and the corresponding GitHub repositories
-WHEN I am presented with the Contact section
-THEN I see a contact form with fields for a name, an email address, and a message
-WHEN I move my cursor out of one of the form fields without entering text
-THEN I receive a notification that this field is required
-WHEN I enter text into the email address field
-THEN I receive a notification if I have entered an invalid email address
-WHEN I am presented with the Resume section
-THEN I see a link to a downloadable resume and a list of the developer’s proficiencies
-WHEN I view the footer
-THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
 
-## Resources used
-https://react-bootstrap.netlify.app/
-https://www.bootdey.com/snippets/view/Profile-bio#css
-https://www.youtube.com/watch?v=IPEqb_AJbAQ&t=361s
+## Installation
+
+What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+
+## Usage
+
+[Link to Deployed app]()
+
+## Credits
+[https://react-bootstrap.netlify.app/](https://react-bootstrap.netlify.app/)
+[https://www.bootdey.com/snippets/view/Profile-bio#css](https://www.bootdey.com/snippets/view/Profile-bio#css)
+[https://www.youtube.com/watch?v=IPEqb_AJbAQ&t=361s](https://www.youtube.com/watch?v=IPEqb_AJbAQ&t=361s)
+
+## License
+
+## Features
+
+## Tests
+
+## Questions
+
+My github: [Link to my github profile](https://github.com/JacobDFlores)
+My email: [jacobfdaniel@gmail.com](jacobfdaniel@gmail.com)
 
