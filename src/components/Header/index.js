@@ -2,12 +2,12 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+import Navigate from '../Navigate'
 
 
-const Header = () => {
+const Header = (props) => {
+
+  const { active, setActive } = props;
 
   return (
       <Container id='head' fluid>
@@ -17,36 +17,14 @@ const Header = () => {
               <h1 className="m-0" style={{ fontSize: '3rem', color: 'white' }}>
                 Jacob D Flores
               </h1>
-              
-           
+              </Col>
+           <Navigate 
+           active={active}
+           setActive= {setActive}
+           />
             
-          </Col>
-          <Col xs={8} md={5}>
-          <Navbar expand="lg" className="bg-body-tertiary">
-      <Container>
-        <Navbar.Brand  href="portfolio" id='navPort'>Portfolio</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link href="/">About Me</Nav.Link>
-            <Nav.Link href="resume">Resume</Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item href="contact-me">Contact Me</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                *Coming soon*
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">*Coming soon*</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target='_blank'>
-                Separated link
-              </NavDropdown.Item>
-            </NavDropdown>
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
-
-          </Col>
+          
+          
         </Row>
         <Row>
           <Col>
