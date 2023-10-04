@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.7865e317.css",
+    "main.js": "/React-Portfolio/static/js/main.2e22b209.js",
+    "static/js/787.a2cb61a6.chunk.js": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/FOOD FINDER 2.0.png": "/React-Portfolio/static/media/FOOD FINDER 2.0.6f1f07503d14e5e5476e.png",
+    "static/media/Music-verse-app.png": "/React-Portfolio/static/media/Music-verse-app.502e42635b225cce41a7.png",
+    "static/media/IMG-2181.JPG": "/React-Portfolio/static/media/IMG-2181.bfbcc71a70224768d156.JPG",
+    "static/media/smsImg.png": "/React-Portfolio/static/media/smsImg.f78917df866ff0892f44.png",
+    "static/media/weatherForecast.png": "/React-Portfolio/static/media/weatherForecast.535244516b40b1645fbf.png",
+    "static/media/selfShot_natural.JPG": "/React-Portfolio/static/media/selfShot_natural.1b7a48edcffb5ce32865.JPG",
+    "static/media/coding quiz.png": "/React-Portfolio/static/media/coding quiz.36996764635da91a898e.png",
+    "static/media/workDaySchedular.png": "/React-Portfolio/static/media/workDaySchedular.040c271ceaa919931023.png",
+    "static/media/purple-pink-geoBanner.jpeg": "/React-Portfolio/static/media/purple-pink-geoBanner.ee190cb2eca3820b8c78.jpeg",
+    "index.html": "/React-Portfolio/index.html",
+    "main.7865e317.css.map": "/React-Portfolio/static/css/main.7865e317.css.map",
+    "main.2e22b209.js.map": "/React-Portfolio/static/js/main.2e22b209.js.map",
+    "787.a2cb61a6.chunk.js.map": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7865e317.css",
+    "static/js/main.2e22b209.js"
+  ]
+}
