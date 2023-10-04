@@ -38,9 +38,19 @@ function App() {
             {page == 'resume' ? (
           <div style={{ paddingTop: '100px', paddingBottom: '100px' }} >
             <Resume />
+          </div>) : (<></>)} 
+          {page == 'contact-me' ? (
+          <div style={{ paddingTop: '100px', paddingBottom: '100px' }} >
+            <Contact />
           </div>) : (<></>)}  
 
+          <div id = 'banner' style={{
+        backgroundImage: `url(${blueBanner})`,
+        backgroundRepeat: 'no',
+        backgroundSize: 'cover'
+      }}>
       <Footer />
+      </div>
     </div>
   );
 }
