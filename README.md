@@ -17,7 +17,7 @@ What are the steps required to install your project? Provide a step-by-step desc
 
 ## Usage
 
-[Link to Deployed app]()
+[Link to Deployed app](https://jacobdflores.github.io/React-Portfolio/)
 
 ## Credits
 [https://react-bootstrap.netlify.app/](https://react-bootstrap.netlify.app/)
